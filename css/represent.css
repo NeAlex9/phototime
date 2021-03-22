@@ -1,0 +1,54 @@
+.represent {
+    background-color: #F5F6F7;
+    height: 492px;
+}
+
+.represent__wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.represent__content {
+    height: 493px;
+    display: flex;
+    position: relative;
+}
+
+.img_with_phone{
+    height: 404px ;
+    position: absolute;
+    overflow: hidden;
+    top: 87px;
+    left: 510px;
+}
+
+.represent__title {
+    margin-bottom: 40px;
+}
+
+.main_text{
+    width: 448px;
+    margin-left: 127.5px;
+    padding-top: 109px;
+    line-height: 2.1em;
+}
+
+.represent__text {
+    margin-bottom: 41px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+.button_colored{
+    margin-left: 1px;
+    padding: 18px 42px;
+    letter-spacing: 2px;
+    border-radius: 0;
+}
+
+.button_colored:hover{
+    opacity: 85%;
+    transition: opacity 200ms;
+}

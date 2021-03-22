@@ -1,0 +1,73 @@
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 790px;
+    background: #4f6a6e url("../assets/img/Livello 3.png") center no-repeat;
+}
+
+.subscribe__text {
+    font-family: Gotham-Medium;
+    font-size: 23px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 4px;
+}
+
+.subscribe__container {
+    width: 100%;
+    max-width: 1152px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+.form {
+    height: 60px;
+    text-align: center;
+    position: relative;
+    top: 17px;
+    position: relative;
+    left: 14px;
+}
+
+.search {
+    width:400px;
+    height:40px;
+    position:relative;
+    text-align: center;
+}
+
+.form input {
+    font-family: Gotham-Medium;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    margin-left:40px;
+    height: 58px;
+    width: 260px;
+    border-width: 0px;
+    border-radius: 2px;
+}
+
+.search_img:hover{
+    width: 60%;
+    transition: width 200ms;
+}
+
+.form button {
+    background-color: #16a085;
+    color: #fff;
+    text-align: center;
+    position:absolute;
+    border-width: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    width: 63px;
+    height: 60px;
+    text-decoration: none;
+}

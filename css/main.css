@@ -1,0 +1,58 @@
+@import "./reset.css";
+@import "subscribe.css";
+@import "wrapper.css";
+@import "buttons.css";
+@import "download.css";
+@import "footer.css";
+@import "header.css";
+@import "your-life.css";
+@import "represent.css";
+@import "design.css";
+@import "community.css";
+
+@font-face {
+    font-family: Gotham-Light;
+    src: url("../assets/fonts/GothamRoundedLight_21020.ttf");
+}
+
+@font-face {
+    font-family: Gotham-Bold;
+    src: url("../assets/fonts/GothamRoundedBold_21016.ttf");
+}
+
+@font-face {
+    font-family: Gotham-Book;
+    src: url("../assets/fonts/GothamRoundedBook_21018.ttf");
+}
+
+@font-face {
+    font-family: Gotham-Medium;
+    src: url("../assets/fonts/GothamRoundedMedium_21022.ttf");
+}
+
+body {
+    font-family: Gotham-Medium;
+    letter-spacing: 3px;
+    font-size: 10px;
+    width: 1280px;
+    margin: auto;
+}
+
+h1 {
+    font-family: Gotham-Bold;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: Gotham-Bold;
+    font-size: 18px;
+}
+
+.title_color-main {
+    color: #16A085;
+}
+
+p {
+    font-family: Gotham-Light;
+    font-size: 12px;
+}

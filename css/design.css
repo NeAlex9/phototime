@@ -1,0 +1,80 @@
+.design {
+    background-color: white;
+    height: 560px;
+
+}
+
+.design_block {
+    width: 448px;
+    margin-left: 705px;
+}
+
+.wrapper_design {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 147px;
+    margin: auto;
+    width: 1152px;
+}
+
+.design__title {
+    position: relative;
+    left: -3px;
+    top: -2px;
+}
+
+.button_LEARN:hover{
+    opacity: 85%;
+    transition: opacity 200ms;
+}
+
+.design__text {
+    margin: 35px 0;
+    line-height: 22px;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    margin-bottom: 38px;
+}
+
+.design__arrows img:hover{
+    opacity: 40%;
+    transition: opacity 200ms;
+}
+
+.design__phone-img {
+    position: absolute;
+    margin-left: 60px;
+    height: 412px;
+    overflow: hidden;
+}
+
+.button_LEARN {
+    border-radius: 0;
+    letter-spacing: 2px;
+    padding: 18px 44px;
+}
+
+.design__numbers {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.design__slider-arrows {
+    margin-top: 46px;
+}
+
+.design__numbers{
+    position: relative;
+    left: -1px;
+    letter-spacing: 2px;
+}
+
+.design__arrows {
+    margin-top: 7px;
+}
+
+.design__arrows:nth-child(2){
+    position: relative;
+    left: -3px;
+}
