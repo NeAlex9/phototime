@@ -11,6 +11,11 @@
     padding-top: 338px;
 }
 
+.life__button:hover{
+    opacity: 80%;
+    transition: opacity 200ms;
+}
+
 .life__title {
     position: relative;
     left: 5px;
@@ -51,4 +56,8 @@
     top: 2px;
     letter-spacing: 2px;
     font-size: 12px;
+}
+
+.life__button{
+    padding: 5px;
 }
