@@ -19,7 +19,7 @@
     top: 4px;
 }
 
-.subscribe__container {
+.container_subscribe {
     width: 100%;
     max-width: 1152px;
     display: flex;
